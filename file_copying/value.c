@@ -1,10 +1,8 @@
 #include <stdio.h>
 
-main() {
+/* Program to print the value of EOF */
 
-	int c;
+int main() {
 
-	while (c = (getchar() != EOF)) {
-		putchar(c);
-	}
+	printf("EOF: %d\n", EOF);
 }
